@@ -1,0 +1,38 @@
+body {
+    background-color: beige;
+    margin: 100px;
+    text-align: center;
+}
+
+h1 {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+.fuente {
+    font-size: large;
+    text-align: left;
+    width: 500px;
+}
+
+#icono {
+    float: right;
+
+}
+
+#imagenpizza {
+    width: 300px;
+    height: 300px;
+
+}
+
+p {
+    font-style: italic;
+    color: rgb(87, 87, 87);
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
