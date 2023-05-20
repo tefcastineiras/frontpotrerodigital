@@ -24,7 +24,9 @@ h1 {
 }
 
 div {
-
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -83,3 +85,12 @@ footer {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+/* a link {
+    color: blue;
+text-decoration: none;}
+a :visited{color: blueviolet;}
+a: 
+a :hover {font-size: large;}
+
+nav: :hover{}*/
