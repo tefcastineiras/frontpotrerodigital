@@ -64,14 +64,14 @@ main {
     width: 500px;
     height: 200px;
     box-sizing: border-box;
-    margin-left: 5%;
+    margin-left: 2%;
     /*punto 1*/
 }
 
 
 
 aside {
-    margin: 100px;
+    margin: 10px;
 }
 
 h2 {
@@ -125,9 +125,11 @@ footer {
     font-size: 1em;
 }
 
+
 a {
     color: blue;
     text-decoration: none;
+
 }
 
 /* a link {
@@ -135,4 +137,9 @@ a {
 text-decoration: none;}
 a :visited{color: blueviolet;}
 a :hover {font-size: large;}
+
+
+
+
+
 */
