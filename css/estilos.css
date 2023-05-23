@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "med";
+    src: url(../fuente/078MKSD_MC.TTF) format("truetype");
+
+}
+
 body {
     background-color: beige;
 
@@ -7,6 +13,7 @@ body {
     position: fixed;
     bottom: 30px;
     right: 30px;
+
 
 }
 
@@ -19,8 +26,13 @@ header {
 
 }
 
+
+
 h1 {
-    font-size: 2cm;
+    font-family: 'Ubuntu', sans-serif;
+    /* punto 5*/
+    font-size: 5em;
+    /* punto 2*/
 }
 
 div {
@@ -32,22 +44,42 @@ div {
     justify-content: space-around;
     flex-wrap: wrap;
 
+
 }
 
 nav {
     display: flex;
     justify-content: space-around;
-    margin: 50px;
+    margin: 5vh;
+    /* punto 1*/
 
 }
+
+
 
 main {
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 200px;
+    box-sizing: border-box;
+    margin-left: 5%;
+    /*punto 1*/
 }
+
 
 
 aside {
     margin: 100px;
+}
+
+h2 {
+    font-family: "med";
+    /* punto 4*/
+    font-size: 2rem;
+    /*punto 2*/
+
 }
 
 .fuente {
@@ -59,6 +91,7 @@ aside {
 
 p {
     font-style: italic;
+    /*punto 3*/
     color: rgb(87, 86, 86);
 }
 
@@ -66,7 +99,8 @@ p {
 
 .rrss {
     background-color: black;
-    width: 470px;
+    width: 20vw;
+    /*punto 1*/
     height: 250px;
 
 }
@@ -86,11 +120,19 @@ footer {
     flex-wrap: wrap;
 }
 
+.misdatos {
+    color: aliceblue;
+    font-size: 1em;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
 /* a link {
     color: blue;
 text-decoration: none;}
 a :visited{color: blueviolet;}
-a: 
 a :hover {font-size: large;}
-
-nav: :hover{}*/
+*/
