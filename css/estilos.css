@@ -20,7 +20,6 @@ header {
     height: 200px;
     background-color: rgb(207, 121, 99);
     display: flex;
-    /*punto 1*/
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -36,26 +35,10 @@ h1 {
 
 }
 
-div {
 
-    border-radius: 30px;
-    margin-bottom: 10px;
-    margin: 30px;
-    display: flex;
-    /*punto 1*/
-
-    align-items: center;
-    justify-content: space-around;
-    background-color: rgb(255, 255, 255);
-    width: 10%;
-
-    min-width: 300px;
-    /*punto 2*/
-}
 
 nav {
     display: flex;
-    /*punto 1*/
     justify-content: space-around;
     margin: 5vh;
     flex-wrap: wrap;
@@ -63,7 +46,7 @@ nav {
 
 main {
     display: flex;
-    /*punto 1*/
+
     justify-content: space-around;
     flex-wrap: wrap;
     box-sizing: border-box;
@@ -76,18 +59,36 @@ main {
     }
 }
 
-/*punto 3 y 4*/
 
-
-aside {
-    font-size: large;
-    text-align: left;
+.container {
     display: flex;
-    /*punto 1*/
-
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-h2 {
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    border-radius: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: flex;
+
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    width: 10%;
+}
+
+.card-text {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@medi h2 {
     font-family: "med";
 
     font-size: 2rem;
@@ -104,7 +105,7 @@ p {
 footer {
     background-color: rgb(67, 146, 84);
     display: flex;
-    /*punto 1*/
+
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -120,7 +121,20 @@ footer {
     width: 30px;
     height: 30px;
     border-radius: 20px;
+}
 
+.rrss {
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin: 30px;
+    display: flex;
+
+
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    width: 10%;
+    min-width: 300px;
 }
 
 a {
@@ -132,7 +146,7 @@ a {
 .link {
     width: 25%;
     min-width: 300px;
-    /*punto 2*/
+
     margin-bottom: 15px;
 }
 
@@ -152,7 +166,32 @@ a :visited{color: blueviolet;}
 a :hover {font-size: large;}
 
 
+div {
 
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin: 30px;
+    display: flex;
+
+
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    width: 10%;
+    min-width: 300px;
+
+}
+
+
+
+
+aside {
+    font-size: large;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
 
 */
