@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: beige;
+    background-color: rgb(252, 252, 252);
 
 }
 
@@ -13,6 +13,16 @@ body {
     position: fixed;
     bottom: 30px;
     right: 30px;
+}
+
+.cambiar {
+
+    right: 30px;
+
+}
+
+.cambiar:hover {
+    font-size: 1.3rem;
 }
 
 header {
@@ -26,8 +36,6 @@ header {
 
 }
 
-
-
 h1 {
     font-family: 'Ubuntu', sans-serif;
 
@@ -35,13 +43,22 @@ h1 {
 
 }
 
-
-
 nav {
     display: flex;
     justify-content: space-around;
     margin: 5vh;
     flex-wrap: wrap;
+}
+
+@media (max-width:600px) {
+    .nav {
+        flex-direction: column;
+        margin-left: 25%;
+    }
+
+    .link {
+        margin-bottom: 45px;
+    }
 }
 
 main {
@@ -76,7 +93,6 @@ main {
     margin-bottom: 30px;
     margin-top: 30px;
     display: flex;
-
     justify-content: space-around;
     background-color: rgb(255, 255, 255);
     width: 10%;
@@ -87,25 +103,15 @@ main {
     justify-content: space-around;
 }
 
-
-@medi h2 {
-    font-family: "med";
-
-    font-size: 2rem;
-}
-
 p {
     font-style: italic;
 
     color: rgb(87, 86, 86);
 }
 
-
-
-footer {
-    background-color: rgb(67, 146, 84);
+.footer {
+    background-color: rgb(83, 83, 83);
     display: flex;
-
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -146,15 +152,17 @@ a {
 .link {
     width: 25%;
     min-width: 300px;
-
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
-.misdatos {
-    color: aliceblue;
-    font-size: 1em;
-    margin: 40px;
+@media (max-width:600px) {
+    .link {
+        margin-bottom: 30px;
+    }
+
+    /* No esta funcionando ¿?   */
 }
+
 
 
 
@@ -164,6 +172,7 @@ a {
 text-decoration: none;}
 a :visited{color: blueviolet;}
 a :hover {font-size: large;}
+
 
 
 div {
@@ -185,6 +194,7 @@ div {
 
 
 
+
 aside {
     font-size: large;
 
@@ -193,5 +203,11 @@ aside {
     flex-wrap: wrap;
 }
 
+
+git: git config --global user.name "Tu nombre" git config --global user.email "tu@email.com"
+Type your message here
+
+js:
+document.getElementById("nav").style.color = "black";
 
 */
